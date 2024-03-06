@@ -8,8 +8,5 @@ export default defineConfig({
     outDir: 'build',
   },
   plugins: [react()],
-  server: {
-    open: true,
-    port: 8000,
-  },
+  base: '/vite-deploy-demo/'
 });
