@@ -8,5 +8,5 @@ export default defineConfig({
     outDir: 'build',
   },
   plugins: [react()],
-  base: '/vite-deploy-demo/'
+  base: '/wa-chat/'
 });
